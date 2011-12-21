@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2E265C414A1033400104A12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2E265C314A1033400104A12 /* UIKit.framework */; };
+		F2E265C614A1033400104A12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2E265C514A1033400104A12 /* Foundation.framework */; };
+		F2E265C814A1033400104A12 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2E265C714A1033400104A12 /* CoreGraphics.framework */; };
+		F2E265CE14A1033400104A12 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2E265CC14A1033400104A12 /* InfoPlist.strings */; };
+		F2E265D014A1033400104A12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E265CF14A1033400104A12 /* main.m */; };
+		F2E265D414A1033400104A12 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E265D314A1033400104A12 /* AppDelegate.m */; };
+		F2E265D714A1033400104A12 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E265D614A1033400104A12 /* ViewController.m */; };
+		F2E265DA14A1033400104A12 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2E265D814A1033400104A12 /* ViewController.xib */; };
+		F2E265E214A1033500104A12 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2E265E114A1033500104A12 /* SenTestingKit.framework */; };
+		F2E265E314A1033500104A12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2E265C314A1033400104A12 /* UIKit.framework */; };
+		F2E265E414A1033500104A12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2E265C514A1033400104A12 /* Foundation.framework */; };
+		F2E265EC14A1033500104A12 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2E265EA14A1033500104A12 /* InfoPlist.strings */; };
+		F2E265EF14A1033500104A12 /* TVDownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E265EE14A1033500104A12 /* TVDownTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2E265E514A1033500104A12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2E265B614A1033300104A12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2E265BE14A1033400104A12;
+			remoteInfo = TVDown;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F2E265BF14A1033400104A12 /* TVDown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVDown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2E265C314A1033400104A12 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F2E265C514A1033400104A12 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F2E265C714A1033400104A12 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F2E265CB14A1033400104A12 /* TVDown-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TVDown-Info.plist"; sourceTree = "<group>"; };
+		F2E265CD14A1033400104A12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F2E265CF14A1033400104A12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2E265D114A1033400104A12 /* TVDown-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TVDown-Prefix.pch"; sourceTree = "<group>"; };
+		F2E265D214A1033400104A12 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F2E265D314A1033400104A12 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F2E265D514A1033400104A12 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F2E265D614A1033400104A12 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F2E265D914A1033400104A12 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		F2E265E014A1033500104A12 /* TVDownTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TVDownTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2E265E114A1033500104A12 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F2E265E914A1033500104A12 /* TVDownTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TVDownTests-Info.plist"; sourceTree = "<group>"; };
+		F2E265EB14A1033500104A12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F2E265ED14A1033500104A12 /* TVDownTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVDownTests.h; sourceTree = "<group>"; };
+		F2E265EE14A1033500104A12 /* TVDownTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVDownTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2E265BC14A1033400104A12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E265C414A1033400104A12 /* UIKit.framework in Frameworks */,
+				F2E265C614A1033400104A12 /* Foundation.framework in Frameworks */,
+				F2E265C814A1033400104A12 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E265DC14A1033500104A12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E265E214A1033500104A12 /* SenTestingKit.framework in Frameworks */,
+				F2E265E314A1033500104A12 /* UIKit.framework in Frameworks */,
+				F2E265E414A1033500104A12 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2E265B414A1033300104A12 = {
+			isa = PBXGroup;
+			children = (
+				F2E265C914A1033400104A12 /* TVDown */,
+				F2E265E714A1033500104A12 /* TVDownTests */,
+				F2E265C214A1033400104A12 /* Frameworks */,
+				F2E265C014A1033400104A12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2E265C014A1033400104A12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2E265BF14A1033400104A12 /* TVDown.app */,
+				F2E265E014A1033500104A12 /* TVDownTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2E265C214A1033400104A12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2E265C314A1033400104A12 /* UIKit.framework */,
+				F2E265C514A1033400104A12 /* Foundation.framework */,
+				F2E265C714A1033400104A12 /* CoreGraphics.framework */,
+				F2E265E114A1033500104A12 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2E265C914A1033400104A12 /* TVDown */ = {
+			isa = PBXGroup;
+			children = (
+				F2E265D214A1033400104A12 /* AppDelegate.h */,
+				F2E265D314A1033400104A12 /* AppDelegate.m */,
+				F2E265D514A1033400104A12 /* ViewController.h */,
+				F2E265D614A1033400104A12 /* ViewController.m */,
+				F2E265D814A1033400104A12 /* ViewController.xib */,
+				F2E265CA14A1033400104A12 /* Supporting Files */,
+			);
+			path = TVDown;
+			sourceTree = "<group>";
+		};
+		F2E265CA14A1033400104A12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2E265CB14A1033400104A12 /* TVDown-Info.plist */,
+				F2E265CC14A1033400104A12 /* InfoPlist.strings */,
+				F2E265CF14A1033400104A12 /* main.m */,
+				F2E265D114A1033400104A12 /* TVDown-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2E265E714A1033500104A12 /* TVDownTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2E265ED14A1033500104A12 /* TVDownTests.h */,
+				F2E265EE14A1033500104A12 /* TVDownTests.m */,
+				F2E265E814A1033500104A12 /* Supporting Files */,
+			);
+			path = TVDownTests;
+			sourceTree = "<group>";
+		};
+		F2E265E814A1033500104A12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2E265E914A1033500104A12 /* TVDownTests-Info.plist */,
+				F2E265EA14A1033500104A12 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2E265BE14A1033400104A12 /* TVDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2E265F214A1033500104A12 /* Build configuration list for PBXNativeTarget "TVDown" */;
+			buildPhases = (
+				F2E265BB14A1033400104A12 /* Sources */,
+				F2E265BC14A1033400104A12 /* Frameworks */,
+				F2E265BD14A1033400104A12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TVDown;
+			productName = TVDown;
+			productReference = F2E265BF14A1033400104A12 /* TVDown.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2E265DF14A1033500104A12 /* TVDownTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2E265F514A1033500104A12 /* Build configuration list for PBXNativeTarget "TVDownTests" */;
+			buildPhases = (
+				F2E265DB14A1033500104A12 /* Sources */,
+				F2E265DC14A1033500104A12 /* Frameworks */,
+				F2E265DD14A1033500104A12 /* Resources */,
+				F2E265DE14A1033500104A12 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2E265E614A1033500104A12 /* PBXTargetDependency */,
+			);
+			name = TVDownTests;
+			productName = TVDownTests;
+			productReference = F2E265E014A1033500104A12 /* TVDownTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2E265B614A1033300104A12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = F2E265B914A1033300104A12 /* Build configuration list for PBXProject "TVDown" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F2E265B414A1033300104A12;
+			productRefGroup = F2E265C014A1033400104A12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2E265BE14A1033400104A12 /* TVDown */,
+				F2E265DF14A1033500104A12 /* TVDownTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2E265BD14A1033400104A12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E265CE14A1033400104A12 /* InfoPlist.strings in Resources */,
+				F2E265DA14A1033400104A12 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E265DD14A1033500104A12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E265EC14A1033500104A12 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F2E265DE14A1033500104A12 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2E265BB14A1033400104A12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E265D014A1033400104A12 /* main.m in Sources */,
+				F2E265D414A1033400104A12 /* AppDelegate.m in Sources */,
+				F2E265D714A1033400104A12 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E265DB14A1033500104A12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E265EF14A1033500104A12 /* TVDownTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2E265E614A1033500104A12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2E265BE14A1033400104A12 /* TVDown */;
+			targetProxy = F2E265E514A1033500104A12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2E265CC14A1033400104A12 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2E265CD14A1033400104A12 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F2E265D814A1033400104A12 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2E265D914A1033400104A12 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		F2E265EA14A1033500104A12 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2E265EB14A1033500104A12 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2E265F014A1033500104A12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F2E265F114A1033500104A12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2E265F314A1033500104A12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TVDown/TVDown-Prefix.pch";
+				INFOPLIST_FILE = "TVDown/TVDown-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F2E265F414A1033500104A12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TVDown/TVDown-Prefix.pch";
+				INFOPLIST_FILE = "TVDown/TVDown-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F2E265F614A1033500104A12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TVDown.app/TVDown";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TVDown/TVDown-Prefix.pch";
+				INFOPLIST_FILE = "TVDownTests/TVDownTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F2E265F714A1033500104A12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TVDown.app/TVDown";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TVDown/TVDown-Prefix.pch";
+				INFOPLIST_FILE = "TVDownTests/TVDownTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2E265B914A1033300104A12 /* Build configuration list for PBXProject "TVDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E265F014A1033500104A12 /* Debug */,
+				F2E265F114A1033500104A12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2E265F214A1033500104A12 /* Build configuration list for PBXNativeTarget "TVDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E265F314A1033500104A12 /* Debug */,
+				F2E265F414A1033500104A12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F2E265F514A1033500104A12 /* Build configuration list for PBXNativeTarget "TVDownTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E265F614A1033500104A12 /* Debug */,
+				F2E265F714A1033500104A12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2E265B614A1033300104A12 /* Project object */;
+}
